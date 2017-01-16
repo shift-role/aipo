@@ -202,7 +202,14 @@ public class MessageFormData extends ALAbstractFormData {
   protected boolean insertFormData(RunData rundata, Context context,
       List<String> msgList) throws ALPageNotFoundException, ALDBErrorException {
     try {
-
+      /*
+       * FirebaseOptions options = new FirebaseOptions.Builder()
+       * .setServiceAccount( new
+       * FileInputStream("/WEB-INF/conf/google-services.json"))
+       * .setDatabaseUrl("https://myapplication3-b9d89.firebaseio.com/")
+       * .build(); FirebaseApp.initializeApp(options);
+       * FirebaseAuth.getInstance().
+       */
       Date now = new Date();
 
       if (room == null && targetUser != null) {

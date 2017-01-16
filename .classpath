@@ -192,5 +192,6 @@
 	<classpathentry kind="var" path="TOMCAT_HOME/lib/el-api.jar"/>
 	<classpathentry kind="var" path="TOMCAT_HOME/lib/annotations-api.jar"/>
 	<classpathentry kind="var" path="TOMCAT_HOME/lib/catalina.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/firebase/firebase-server-sdk/3.0.3/firebase-server-sdk-3.0.3.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
